@@ -1,0 +1,159 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+
+
+.container {
+    height: 650px;
+    width: 950px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+
+.inside-container1 {
+    height: 50px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:-210px;
+    border-radius: 3px;
+}
+
+.inside-container1 input {
+    border: 0;
+    outline: none;
+    cursor: default;
+}
+
+.inside-container2 {
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:-56px;
+    border-radius: 3px;
+}
+.inside-container3 {
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:173px;
+    border-radius: 3px;
+}
+
+#request, #cancel {
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+#request:hover, #cancel:hover {
+    background-color: white;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: small;
+}
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+tr.selected {
+    background-color: lightblue;
+}
+/* Style for the select element */
+select {
+    padding: 4px; /* Add padding for better appearance */
+    font-size: 12px; /* Adjust font size */
+    border: 1px solid #ccc; /* Add border */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    width: 280px;
+}
+
+/* Style for the dropdown menu */
+select option {
+    padding: 8px; /* Add padding for better appearance */
+    font-size: 12px; /* Adjust font size */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+textarea {
+    width: 675px; /* Set the width */
+    height: 80px; /* Set the height */
+    resize: none; /* Disable resizing */
+    margin-left: 108px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 200px;
+    /* Additional styles as needed */
+}
+
+
+.hidden {
+    display: none;
+}
+
+label{
+    font-weight: bold;
+}
+
+h4{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
